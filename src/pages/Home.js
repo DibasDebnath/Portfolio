@@ -6,7 +6,7 @@ const Home = () => {
     <div className="home-container">
       <div className="summary-container">
         <div className="home-photo">
-          <img src="/Profile.jpg" alt="Dibas Debnath" />
+          <img src="./photos/home/profile.jpg" alt="Dibas Debnath" />
         </div>
         <div className="home-summary">
           <h2>Dibas Debnath</h2>
