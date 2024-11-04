@@ -4,10 +4,10 @@ import "./CocosProjects.css";
 const CocosProjects = () => {
   return (
     <div className="cocosProjects-container">
-      <h1 className="cocosProjects-headline">Cocos Creator Projects</h1>
+      <h1 className="cocosProjects-headline">Web Games</h1>
       <p className="cocosProjects-summary">
         In this showcase, I present my portfolio of games developed using Cocos
-        Creator. Each video highlights unique projects that demonstrate my
+        Creator for Web platforms. Each video highlights unique projects that demonstrate my
         skills in game design, programming, and storytelling. You'll see a
         variety of gameplay mechanics, visual styles, and interactive features
         that I have implemented. From immersive environments to engaging

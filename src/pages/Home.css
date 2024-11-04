@@ -1,23 +1,33 @@
 /* Centering Container */
 .home-container {
-  display: flex;
-  align-items: flex-start;
+  
+  align-items: center;
   justify-content: center;
   background-color: #383838;
-  padding-bottom: 2rem; /* Add bottom padding for spacing */
+  padding-bottom: 2rem; 
+  
+  max-width: 1200px;
+  /* background-color: aliceblue; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
-.home {
+.summary-container {
+  
   display: flex;
   align-items: center;
-  margin-top: 100px;
+  margin-top: 2rem;
   gap: 2rem;
-  padding: 2rem;
+  padding: 3rem;
   background-color: #4e4e4e;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   max-width: 90vw; /* Limit width to prevent horizontal scroll on small screens */
 }
+
+
 
 .home-photo img {
   width: 400px;
@@ -50,12 +60,20 @@
     padding-bottom: 4rem; /* Add extra space for mobile view */
   }
 
-  .home {
+  .summary-container {
     flex-direction: column;
     text-align: center;
     margin-top: 2rem; /* Adjust top margin for better centering on mobile */
     gap: 1rem; /* Reduce gap between elements */
-    padding: 1rem;
+    /* padding: 1rem; */
+  }
+
+  .experience {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2rem; /* Adjust top margin for better centering on mobile */
+    gap: 1rem; /* Reduce gap between elements */
+    /* padding: 1rem; */
   }
 
   .home-photo img {
@@ -70,4 +88,52 @@
   .home-summary p {
     font-size: 0.9rem; /* Adjust font size for readability */
   }
+}
+
+
+
+
+/* Experience Section */
+.experience {
+ margin-top: 2rem;
+  gap: 2rem;
+  padding-top: 0.1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 3rem;
+
+
+  background-color: #4e4e4e;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  max-width: 90vw; 
+  color: #cecece;
+}
+
+.experience h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.experience h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+
+.experience p {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.experience ul {
+  list-style: disc;
+  margin-left: 1.5rem;
+  padding-left: 0;
+}
+
+.experience li {
+  line-height: 1.6;
+  margin-bottom: 0.5rem;
 }

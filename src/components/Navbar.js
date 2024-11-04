@@ -64,7 +64,7 @@ const Navbar = () => {
         </li>
         <li>
           <Link to="/CocosProjects" onClick={handleLinkClick}>
-            Cocos Projects
+            Web Games
           </Link>
         </li>
         <li>
